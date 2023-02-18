@@ -95,11 +95,9 @@
   }
 
   .workpage_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 88px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 88px;
     padding-left: 24px;
     padding-right: 24px;
   }

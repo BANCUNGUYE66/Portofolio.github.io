@@ -87,8 +87,229 @@
     padding-right: 10px;
   }
 
-  .work_section {
+  .workpage {
+    width: 100%;
+    height: auto;
+    padding-top: 108px;
+    padding-bottom: 114px;
+  }
+
+  .workpage_container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .card_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 17px;
+  }
+
+  .card_one_image img {
+    width: 295px;
+    height: 220px;
+  }
+
+  .card_one h1 {
+    width: 60%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    padding-top: 12px;
+  }
+
+  .list2015 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .canopy {
+    list-style: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+  .list2015 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    padding-top: 12px;
+  }
+
+  .paragraph {
+    width: 70%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 12px;
+  }
+
+  .skills_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .skills_button ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 27px;
+  }
+
+  .skills_button a {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    padding: 5px 12px;
+  }
+
+  .Project_button button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #396df2;
+    padding: 14px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #396df2;
+    margin-bottom: 20px;
+  }
+
+  .aboutpage {
     width: 100%;
     height: 100vh;
+    background-size: contain;
+    background-color: white;
+    padding: 128px 24px;
+    border-top-right-radius: 100px;
+  }
+
+  .aboutpage_container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .aboutpage_container h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .aboutpage_container p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #172b4d;
+  }
+
+  .languages_bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 59px;
+    padding-top: 8px;
+  }
+
+  .skills_button_image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills_button_image ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 27px;
+  }
+
+  .skills_button_image li {
+    width: auto;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    padding: 5px 12px;
+  }
+
+  .skills_button_image a {
+    color: #253858;
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    padding-left: 34px;
+  }
+
+  .frameworks_bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 59px;
+    padding-top: 8px;
+  }
+
+  .skills_bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 59px;
+    padding-top: 8px;
+  }
+
+  .javascript_flex {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .html_flex {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .css_flex {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .hr {
+    height: 1px;
+    width: 400px;
   }
 }

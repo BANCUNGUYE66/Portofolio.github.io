@@ -200,12 +200,11 @@
 
   .aboutpage {
     width: 100%;
-    height: 100vh;
+    height: 1263px;
     background-size: contain;
     background-color: white;
     padding: 128px 24px;
     border-top-right-radius: 100px;
-    margin-bottom: 203px;
   }
 
   .aboutpage_container {
@@ -323,8 +322,9 @@
   background-image: url(images/contact\ form\ shapes-mobilepair.svg);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
   border-radius: 60px 0 0 0;
+  background-position-y: 21px;
+  margin-top: -17.573rem;
 }
 
 .contact_page_container {
@@ -363,3 +363,125 @@ line-height: 28px;
 margin-bottom: 3.5rem;
 color: #FFFFFF;
 }
+
+.li_st {
+  padding-top: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.li-li_st input {
+ 
+  height: 48px;
+width: 327px;
+border-radius: 8px;
+background: #FFFFFF;
+/* Base/100 */
+
+border: 1px solid #CFD8DC;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* or 118% */
+
+display: flex;
+align-items: center;
+
+/* Neutral/N800 */
+
+color: #172B4D;
+padding: 0.5rem 1rem;
+
+
+
+
+}
+
+.li1-li_st input {
+  margin-top: 20px;
+  height: 48px;
+width: 327px;
+border-radius: 8px;
+background: #FFFFFF;
+/* Base/100 */
+
+border: 1px solid #CFD8DC;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* or 118% */
+
+display: flex;
+align-items: center;
+
+/* Neutral/N800 */
+
+color: #172B4D;
+padding: 0.5rem 1rem;
+
+}
+
+.li2-li_st textarea {
+  height: 170px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+border: 1px solid #CFD8DC;
+/* or 160% */
+
+
+/* Neutrals/N60 */
+
+color: #B3BAC5;
+padding: 0.5rem 1rem;
+margin-top: 18px;
+margin-left: 6px;
+}
+
+li .btn-btn-default {
+  margin-top: 22px;
+  height: 48px;
+width: 142px;
+left: 24px;
+top: 5317px;
+border-radius: 8px;
+padding: 12px 16px 12px 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+background: #FFFFFF;
+border-radius: 8px;
+border: 1px solid #CFD8DC;
+
+/* identical to box height, or 141% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
+
+/* Primary/B400 */
+
+color: #6070FF;
+margin-left: -10.25rem;
+
+} 
+

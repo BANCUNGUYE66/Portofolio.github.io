@@ -457,3 +457,46 @@ li .btn-btn-default {
   color: #666;
   cursor: not-allowed;
 }
+
+@media screen and (min-width: 768px) {
+
+  .nav_bar{
+    padding-left: 155px;
+    padding-right: 150px;
+  
+  }
+  .nav_image{
+    display: none;
+  }
+
+  .homepage{
+    background-image: url(images/desktop_version/Header\ bg@2x.png);
+    
+
+  }
+  .homepage_container{
+    padding-left: 226px;
+    padding-right: 269px
+   
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+
+  }
+
+  
+
+}   
+
+
+
+

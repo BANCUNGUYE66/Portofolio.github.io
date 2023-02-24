@@ -97,12 +97,39 @@
   .workpage_container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 88px;
+    grid-gap: 80px;
     padding-left: 24px;
     padding-right: 24px;
   }
 
   .card_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 17px;
+  }
+
+  .card_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 17px;
+  }
+
+  .card_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 16px;
+    border-radius: 17px;
+  }
+
+  .card_four {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,14 +240,14 @@
     gap: 12px;
   }
 
-  .aboutpage_container h1 {
+  .aboutpage_container h2 {
     width: 100%;
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
   }
 
-  .aboutpage_container p {
+  .about_p p {
     width: 100%;
     font-size: 16px;
     line-height: 24px;
@@ -233,6 +260,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-style: normal;
+  }
+
+  .languages {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
     padding-left: 10px;
     padding-right: 59px;
     padding-top: 8px;
@@ -274,6 +309,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
     padding-left: 10px;
     padding-right: 59px;
     padding-top: 8px;
@@ -285,6 +324,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
     padding-left: 10px;
     padding-right: 59px;
     padding-top: 8px;
@@ -318,8 +361,9 @@
   width: 100%;
   height: 779px;
   background: #6070ff;
-  background-image: url(images/contact\_form\_shapes-mobilepair.svg);
+  background-image: url(images/background2/contact\ form\ background\ shapes.svg);
   background-position: right;
+  background-size: contain;
   background-repeat: no-repeat;
   border-radius: 60px 0 0 0;
   background-position-y: 21px;
@@ -354,11 +398,12 @@
   width: 327px;
   height: 102px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
   line-height: 28px;
   margin-bottom: 3.5rem;
   color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }
 
 .li_st {
@@ -458,45 +503,164 @@ li .btn-btn-default {
   cursor: not-allowed;
 }
 
-@media screen and (min-width: 768px) {
+.menu {
+  display: none;
+}
 
-  .nav_bar{
+@media screen and (min-width: 768px) {
+  .nav_bar {
     padding-left: 155px;
     padding-right: 150px;
-  
   }
-  .nav_image{
+
+  .nav_image {
     display: none;
   }
 
-  .homepage{
+  .homepage {
     background-image: url(images/desktop_version/Header\ bg@2x.png);
-    
-
+    height: 76vh;
   }
-  .homepage_container{
+
+  .homepage_container {
     padding-left: 226px;
-    padding-right: 269px
-   
+    padding-right: 269px;
   }
 
-  .menu{
+  .menu {
     display: flex;
     flex-direction: row;
     gap: 32px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
-
   }
 
-  
+  .workpage {
+    padding-bottom: 10px;
+  }
 
-}   
+  .workpage_container {
+    grid-gap: 12px;
+  }
 
+  .card_one {
+    display: flex;
+    flex-direction: row;
+    gap: 106px;
+    margin-right: 21px;
+    margin-left: 19px;
+    margin-bottom: 101px;
+  }
 
+  .card_two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 17px;
+    margin-right: 21px;
+    margin-left: 19px;
+    margin-bottom: 101px;
+  }
 
+  .card_one_image {
+    grid-column: 2;
+    grid-row: 1;
+  }
 
+  .card_three {
+    display: flex;
+    flex-direction: row;
+    gap: 106px;
+    padding: 17px;
+    margin-right: 21px;
+    margin-left: 19px;
+    margin-bottom: 101px;
+  }
+
+  .card_four {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 17px;
+    margin-right: 21px;
+    margin-left: 19px;
+    margin-bottom: 101px;
+  }
+
+  .card_one_image img {
+    width: 352px;
+    height: 273px;
+  }
+
+  .aboutpage {
+    height: 1196px;
+    padding-right: 107px;
+  }
+
+  .aboutpage_container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 20% 35% 5% 10% 10%;
+    column-gap: 40px;
+    padding-left: 90px;
+  }
+
+  .about_p {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .connect {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .icon_wrapper {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .Project_button {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .languages_bar {
+    padding-right: 59px;
+    padding-bottom: 46px;
+  }
+
+  .skills_button_image ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .skills_button_image li {
+    display: flow-root;
+    padding: 0 10px;
+  }
+
+  .contact_page {
+    background-image: url(images/background2/contact\ form\ background\ shapes@2x.png);
+    background-size: cover;
+    margin-top: -563px;
+  }
+
+  .li1-li_st input {
+    border-radius: 0;
+  }
+
+  .li2-li_st textarea {
+    border-radius: 0;
+  }
+
+  .li-li_st input {
+    border-radius: 0;
+  }
+
+  li .btn-btn-default {
+    margin-left: -0.25rem;
+  }
+}

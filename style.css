@@ -143,6 +143,21 @@
     height: 220px;
   }
 
+  .card_two_image img {
+    width: 295px;
+    height: 220px;
+  }
+
+  .card_three_image img {
+    width: 295px;
+    height: 220px;
+  }
+
+  .card_four_image img {
+    width: 295px;
+    height: 220px;
+  }
+
   .card_one h1 {
     width: 60%;
     font-weight: 700;
@@ -384,9 +399,6 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-}
-
-.contact_page_container h2 span {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -397,12 +409,12 @@
 .contact_page_container p {
   width: 327px;
   height: 102px;
-  font-style: normal;
-  line-height: 28px;
   margin-bottom: 3.5rem;
-  color: #fff;
+  color: #ebebff;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  line-height: 28px;
   text-align: center;
 }
 
@@ -527,6 +539,22 @@ li .btn-btn-default {
     padding-right: 269px;
   }
 
+  .homepage_container h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .homepage_container p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
+
   .menu {
     display: flex;
     flex-direction: row;
@@ -543,65 +571,153 @@ li .btn-btn-default {
   }
 
   .workpage_container {
-    grid-gap: 12px;
+    grid-gap: 142px;
   }
 
   .card_one {
-    display: flex;
-    flex-direction: row;
-    gap: 106px;
-    margin-right: 21px;
-    margin-left: 19px;
-    margin-bottom: 101px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 496px;
+    width: 1156px;
+    margin-left: 62px;
   }
 
   .card_two {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 17px;
-    margin-right: 21px;
-    margin-left: 19px;
-    margin-bottom: 101px;
+    height: 496px;
+    width: 1156px;
+    margin-left: 62px;
   }
 
-  .card_one_image {
-    grid-column: 2;
+  .card_one_text {
     grid-row: 1;
+    grid-column: 2;
+    padding-left: 109px;
+  }
+
+  .card_two_text {
+    grid-row: 1;
+    grid-column: 2;
+    padding-left: 109px;
   }
 
   .card_three {
-    display: flex;
-    flex-direction: row;
-    gap: 106px;
-    padding: 17px;
-    margin-right: 21px;
-    margin-left: 19px;
-    margin-bottom: 101px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 496px;
+    width: 1156px;
+    margin-left: 62px;
   }
 
   .card_four {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 17px;
-    margin-right: 21px;
-    margin-left: 19px;
-    margin-bottom: 101px;
+    height: 496px;
+    width: 1156px;
+    margin-left: 62px;
+  }
+
+  .card_three_text {
+    padding-left: 109px;
+  }
+
+  .card_four_text {
+    padding-left: 109px;
+  }
+
+  .card_one_text h2 {
+    width: 496px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-top: 40px;
+  }
+
+  .card_two_text h2 {
+    width: 496px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-top: 40px;
+  }
+
+  .card_three_text h2 {
+    width: 496px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-top: 40px;
+  }
+
+  .card_four_text h2 {
+    width: 496px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-top: 40px;
   }
 
   .card_one_image img {
-    width: 352px;
-    height: 273px;
+    width: 589px;
+    height: 444px;
+    margin-left: 3px;
+    margin-top: 6px;
+  }
+
+  .card_two_image img {
+    width: 589px;
+    height: 444px;
+    margin-left: 3px;
+    margin-top: 6px;
+  }
+
+  .card_three_image img {
+    width: 589px;
+    height: 444px;
+    margin-left: 3px;
+    margin-top: 6px;
+  }
+
+  .card_four_image img {
+    width: 589px;
+    height: 444px;
+    margin-left: 3px;
+    margin-top: 6px;
+  }
+
+  .button_hover:active {
+    background-color: #005cbf;
+    color: #fff;
+  }
+
+  .button_hover:hover {
+    background-color: #007bff;
+    color: white;
   }
 
   .aboutpage {
-    height: 1196px;
+    height: 1210px;
     padding-right: 107px;
+    margin-top: 142px;
   }
 
   .aboutpage_container {
     display: grid;
     grid-template-columns: 35% 65%;
-    grid-template-rows: 20% 35% 5% 10% 10%;
+    grid-template-rows: 30% 25% 5% 10% 10%;
     column-gap: 40px;
     padding-left: 90px;
   }
@@ -639,7 +755,8 @@ li .btn-btn-default {
 
   .skills_button_image li {
     display: flow-root;
-    padding: 0 10px;
+    padding: 24px;
+    margin-top: -63px;
   }
 
   .contact_page {
@@ -648,19 +765,45 @@ li .btn-btn-default {
     margin-top: -563px;
   }
 
+  .contact_page_container p {
+    width: 531px;
+    padding-top: 28px;
+  }
+
+  .li_st {
+    padding-top: 9px;
+  }
+
   .li1-li_st input {
     border-radius: 0;
+    width: 447px;
   }
 
   .li2-li_st textarea {
     border-radius: 0;
+    width: 447px;
   }
 
   .li-li_st input {
     border-radius: 0;
+    width: 447px;
   }
 
   li .btn-btn-default {
     margin-left: -0.25rem;
+  }
+
+  .Project_button button:hover {
+    background-color: #2933b9;
+  }
+
+  .Project_button button:active {
+    background-color: #3d75ba;
+  }
+
+  .frame_skills_bar hr {
+    height: 1px;
+    width: 650px;
+    background: #dfe1e6;
   }
 }

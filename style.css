@@ -54,11 +54,12 @@
     line-height: 52px;
     color: #172b4d;
     animation-name: example_animation;
-    animation-duration: 30s;
+    animation-duration: 5s;
   }
-  @keyframes example {
-    from {color: #172b4d;}
-    to {color: rgb(63, 207, 230);}
+
+  @keyframes example_animation {
+    from { color: #172b4d; }
+    to { color: rgb(63, 207, 230); }
   }
 
   .homepage_container p {
@@ -560,11 +561,12 @@ li .btn-btn-default {
     line-height: 28px;
     color: #344563;
     animation-name: example_animation;
-    animation-duration: 30s;
+    animation-duration: 5s;
   }
-  @keyframes example {
-    from {color: #172b4d;}
-    to {color: rgb(63, 207, 230);}
+
+  @keyframes example_animation {
+    from { color: #172b4d; }
+    to { color: rgb(63, 207, 230); }
   }
 
   .menu {

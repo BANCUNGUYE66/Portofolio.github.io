@@ -559,6 +559,12 @@ li .btn-btn-default {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+    animation-name: example_animation;
+    animation-duration: 30s;
+  }
+  @keyframes example {
+    from {color: #172b4d;}
+    to {color: rgb(63, 207, 230);}
   }
 
   .menu {

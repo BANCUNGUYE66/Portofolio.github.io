@@ -53,6 +53,12 @@
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
+    animation-name: example_animation;
+    animation-duration: 30s;
+  }
+  @keyframes example {
+    from {color: #172b4d;}
+    to {color: rgb(63, 207, 230);}
   }
 
   .homepage_container p {

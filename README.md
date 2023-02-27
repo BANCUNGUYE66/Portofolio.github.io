@@ -2,34 +2,8 @@
 
 portfolio website
 
-<a name="readme-top"></a>
+<a name=""></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-
--->
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -64,7 +38,7 @@ OPTIONAL SECTIONS:
 
 </details>
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
@@ -234,6 +208,8 @@ I would like to thank Microverse.
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### [My-Portfolio-Online-version](https://bancunguye66.github.io/)

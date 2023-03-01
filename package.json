@@ -25,6 +25,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "postcss": "^8.4.21"
   }
 }

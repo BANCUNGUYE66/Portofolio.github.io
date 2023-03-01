@@ -57,7 +57,7 @@
     animation-duration: 5s;
   }
 
-  .logo-h1 {
+  .logo {
     animation: animation1 2s;
   }
 
@@ -596,6 +596,14 @@ li .btn-btn-default {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+  }
+  .menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
   }
 
   .workpage {

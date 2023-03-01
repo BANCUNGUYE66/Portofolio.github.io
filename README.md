@@ -16,15 +16,19 @@ portfolio website
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-- [👥 Author]
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 [Hello microverse project] <a name="about-project"></a>
 
-> Hello microverse this is simple html, css project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -112,7 +116,7 @@ Please do the following **steps in this order**:
 node_modules/
 ```
 
-### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+## [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more.
 
@@ -135,23 +139,8 @@ A customizable linting tool that helps you improve your site's accessibility, sp
 npm init -y
 ```
 
-1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   _not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)._
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-5. Fix validation errors.
 
-### [Stylelint](https://stylelint.io/)
-
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+### Run
 
 1. Run
 
@@ -181,7 +170,11 @@ every time.
 
 </details>
 
-## 👥 Author <a name="author"></a>
+### Deployment
+
+(https://bancunguye66.github.io/)
+
+### 👥 Author <a name="author"></a>
 
 - GitHub: [@bancunguye66](https://github.com/bancunguye66)
 - Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
@@ -201,13 +194,21 @@ every time.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/BANCUNGUYE66/BANCUNGUYE66.github.io/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project please don't hesitate to give me your support, you are most welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse, hasnatali1947, yin-ka
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

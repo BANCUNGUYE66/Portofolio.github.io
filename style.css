@@ -57,19 +57,21 @@
     animation-duration: 5s;
   }
 
-  .logo-h1{
+  .logo-h1 {
     animation: animation1 2s;
   }
 
   @keyframes animation1 {
-    0%{
-      transform: rotate(0deg) translate(180px) ;
+    0% {
+      transform: rotate(0deg) translate(180px);
     }
-    50%{
-      transform: rotate(10deg) translate(-10px) ;
+
+    50% {
+      transform: rotate(10deg) translate(-10px);
     }
-    100%{
-      transform: rotate(0deg) translate(0px) ;
+
+    100% {
+      transform: rotate(0deg) translate(0);
     }
   }
 

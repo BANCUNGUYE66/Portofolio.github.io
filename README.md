@@ -16,7 +16,6 @@ portfolio website
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -24,7 +23,6 @@ portfolio website
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 [Hello microverse project] <a name="about-project"></a>
@@ -140,7 +138,7 @@ npm init -y
 ```
 
 
-### Run
+### Run tests
 
 1. Run
 
@@ -170,11 +168,12 @@ every time.
 
 </details>
 
-### Deployment
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-(https://bancunguye66.github.io/)
+[Deployment Link](https://bancunguye66.github.io/)
 
-### 👥 Author <a name="author"></a>
+
+### 👥 Author <a name="authors"></a>
 
 - GitHub: [@bancunguye66](https://github.com/bancunguye66)
 - Twitter: [@bancunguye66](https://twitter.com/bancunguye66)

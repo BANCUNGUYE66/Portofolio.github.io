@@ -16,7 +16,7 @@ portfolio website
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Run tests](#run-tests)
+  - [Run](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -138,7 +138,7 @@ npm init -y
 ```
 
 
-### Run tests <a name="run-tests"></a>
+### Run <a name="run-tests"></a>
 
 1. Run
 

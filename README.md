@@ -57,7 +57,7 @@ portfolio website
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://bancunguye66.github.io/)
+- [Live Demo Link](https://www.loom.com/share/052baebce49047b79ecef67f5a160f28)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

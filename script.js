@@ -11,3 +11,6 @@ document.querySelectorAll('.nav_link').forEach((n) => n.addEventListener('click'
     humburger.classList.remove('active');
     navBar.classList.remove('active');
 }))
+
+
+

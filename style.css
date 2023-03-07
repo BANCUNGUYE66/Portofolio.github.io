@@ -84,9 +84,6 @@
     left: 0;
   }
 
-
-
-
   main {
     background-color: #e5e5e5;
   }
@@ -600,8 +597,6 @@ li .btn-btn-default {
   cursor: not-allowed;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .humburger_menu{
     display: none;
@@ -649,35 +644,26 @@ li .btn-btn-default {
     to { color: rgb(63, 207, 230); }
   }
   
+  .menu {
+    height: auto;
+    background-color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: static;
+    list-style: none;
+    gap: 20px;
+  }
 
-.menu {
-  height: auto;
-  background-color: white;
-  flex-direction: row;
-  justify-content: flex-end;
-  position: static;
-  list-style: none;
-  gap: 20px;
-}
-.menu a {
-  width: 100%;
-  display: flex;
-  padding-top: 7px;
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-  color: #344563;
-}
-
- /* .menu a {
-    font-style: normal;
-    font-weight: 500;
+  .menu a {
+    width: 100%;
+    display: flex;
+    padding-top: 7px;
+    text-decoration: none;
     font-size: 15px;
     line-height: 20px;
+    font-weight: 500;
     color: #344563;
-    text-decoration: none;
-  }*/
+  }
 
   .workpage {
     padding-bottom: 10px;

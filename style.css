@@ -85,6 +85,136 @@
     left: 0;
   }
 
+  .popup-background{
+    Width: 100%;
+    Height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #C1C7D0;
+    backdrop-filter:  blur(0px);
+  }
+
+  .popup-card-container{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 12px 22px;
+  }
+
+  .popup-card-1{
+    width: 100%;
+    height: 80vh;
+    top: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+    padding:16px;
+  }
+
+  .pop_cancel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pop_cancel img{
+    width: 12px;
+    height: 12px;
+  }
+
+  .year ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    padding-top: 12px;
+    padding-bottom: 20px;
+
+  }
+
+  .pop_card_one_image img{
+    width: 100%;
+  
+  }
+
+  .pop_paragraph{
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 12px;
+  }
+  .pop_skills_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .pop_skills_button ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 27px;
+  }
+
+  .pop_skills_button a {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #60705b;
+    padding: 5px 12px;
+  }
+
+  .popup_button{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+
+
+  }
+
+  .popup_button button{
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   text-decoration: none;
+   color: #396df2;
+   padding: 14px;
+   background: #fff;
+   border-radius: 8px;
+   border: 1px solid #396df2;
+
+  }
+
+  .source-btn{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+  }
+
+  .live-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+   }
+
   main {
     background-color: #e5e5e5;
   }
@@ -611,6 +741,116 @@ li .btn-btn-default {
   .nav_image {
     display: none;
   }
+
+  .popup-card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 77px 142px 77px 142px;
+    z-index: 10;
+  }
+
+  .popup-card-1{
+    width: 100%;
+    height: 120vh;
+    background-color: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+    padding-bottom: 100px;
+  }
+
+  .year ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    padding-top: 12px;
+    padding-bottom: 20px;
+
+  }
+
+  .pop_card_one_image img{
+    width: 100%;
+  
+  }
+
+  .pop_paragraph{
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 12px;
+  }
+  .pop_skills_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+ /* .pop_skills_button ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 27px;
+  }*/
+
+  .pop_skills_button a {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #60705b;
+    padding: 5px 12px;
+  }
+  .pop_skills_button{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup_button{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+
+
+  }
+
+  .popup_button button{
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   text-decoration: none;
+   color: #396df2;
+   padding: 14px;
+   background: #fff;
+   border-radius: 8px;
+   border: 1px solid #396df2;
+
+  }
+
+  .pop_desktop_paragraph{
+    width: 100%;
+    display: flex;
+  }
+
+  .source-btn{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+  }
+
+  .live-btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+   }
 
   .homepage {
     background-image: url(images/desktop_version/Header\ bg@2x.png);

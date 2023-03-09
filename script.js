@@ -24,7 +24,7 @@ const objects = [
     image: 'images/Snapshoot_Portfolio2.svg',
     alt: 'image',
     paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
     submitButton: 'work_section_buttons',
@@ -40,7 +40,7 @@ const objects = [
     image: 'images/Snapshoot_Portfolio@2x.png',
     alt: 'image',
     paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
     submitButton: 'work_section_buttons',
@@ -56,7 +56,7 @@ const objects = [
     image: 'images/Snapshoot_Portfolio.svg',
     alt: 'image',
     paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
     submitButton: 'work_section_buttons',
@@ -72,7 +72,7 @@ const objects = [
     image: 'images/Snapshoot_Portfolio.png',
     alt: 'image',
     paragraphShort: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     tools: ['html', 'css', 'Javascript'],
     toolsTwo: ['github', 'ruby', 'bootstraps'],
     submitButton: 'work_section_buttons',
@@ -96,14 +96,18 @@ function popupModal(object){
      <div class="popup-card-container">
          <div class="popup-card-1">
              <div class="pop_cancel">
-                 <h2>${object.projectName}</h2>
-                 <img src="images/pop_multiply/Normal Button/Tertiary/Icons/Icon.png" alt=""/>
+                 <div class="tonic_head">
+                     <h2>${object.projectName}</h2>
+                 </div>
+                 <div class="icon">
+                     <i class="fa-duotone fa-x"></i>
+                 </div>
              </div>
              <div class="year">
                  <ul>
-                     <li class="canopy">CANOPY</li>
-                     <li>Back End Dev</li>
-                     <li>2015</li>
+                     <li class="canopy">${object.detailsOne}</li>
+                     <li>${object.detailsTwo}</li>
+                     <li>${object.year}</li>
                  </ul>
              </div>
              <div class="pop_card_one_image">
@@ -111,19 +115,15 @@ function popupModal(object){
              </div>
              <div class="pop_desktop_paragraph">
                  <div class="pop_paragraph">
-                     <p>${object.paragraph}</p>
+                     <p>${object.description}</p>
              </div>
              <div class="pop_desktop_btn">
                  <div class="pop_skills_button">
                      <ul class="first_button">
-                         <li><a href="#">html</a></li> 
-                         <li><a href="#">css</a></li> 
-                         <li><a href="#">javascript</a></li>
+                         ${getmyTemplate(object.tools)}
                      </ul>
                      <ul class="second_button">
-                         <li><a href="#">html</a></li>
-                         <li><a href="#">css</a></li>
-                         <li><a href="#">javascript</a></li>
+                         ${getmyTemplate(object.toolsTwo)}
                      </ul>
                  </div>
                  <div class="popup_button">
@@ -139,3 +139,70 @@ function popupModal(object){
     return popModalContents;
 
 }
+
+    function loadProjectsCards(objects = []) {
+        let cardContent = '';
+
+        objects.forEach((object) => {
+            cardContent += `
+                <div class="workpage_container"
+                  <div class="card_one" id="card_id_1">
+                     <div class="card_one_image">
+                         <img src="${object.image}" alt="${object.alt}" />
+                     </div>
+                     <div class="card_one_text">
+                         <h2>${object.projectName}</h2>
+                         <div class="list2015">
+                             <ul>
+                                 <li class="canopy">${object.detailsOne}</li>
+                                 <li>${object.detailsTwo}</li>
+                                 <li>${object.year}</li>
+                             </ul>
+                         </div>
+                         <div class="paragraph">
+                              <p>${object.paragraphShort}</p> 
+                         </div>
+                         <div class="skills_button">
+                              <ul>
+                                ${getmyTemplate(object.tools)}
+                              </ul>
+                         </div>
+                         <div class="Project_button" id="see_project_button">
+                             <button data-project-id="${object.id}" id="see_project_button">See Project</button>
+                         </div>
+                     </div>
+                </div>
+            `;
+        });
+        return cardContent;
+    }
+    function closePopUp() {
+        modalContainer.style.display = 'none';
+      }
+      function openPopUp(object) {
+        const popUpTemplate = popUpModal(object);
+        modalContainer.innerHTML = popUpTemplate;
+        modalContainer.style.display = 'block';
+        const popUpCloseButton = document.querySelector('.icon');
+        popUpCloseButton.addEventListener('click', closePopUp);
+      }
+      window.addEventListener('load', () => {
+        const portfolioSection = document.querySelector('#work');
+        modalContainer.style.display = 'none';
+        portfolioSection.innerHTML = loadProjectsCards(objects);
+        const projectButtons = document.querySelectorAll('#see_project_button');
+        Array.from(projectButtons).forEach((element) => {
+          element.addEventListener('click', () => {
+            const projectID = element.getAttribute('data-project-id');
+            const projectObj = objects.find((object) => object.id === projectID);
+            openPopUp(projectObj);
+          });
+        });
+      });
+
+
+    
+
+
+
+                                 

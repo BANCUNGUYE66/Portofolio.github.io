@@ -784,7 +784,18 @@ li .btn-btn-default {
     line-height: 24px;
     color: #344563;
     padding-top: 12px;
+    margin-right: 127px;
   }
+
+  .live-btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  
+  }
+
   .pop_skills_button {
     display: flex;
     flex-direction: row;

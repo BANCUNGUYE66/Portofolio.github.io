@@ -172,7 +172,8 @@ function loadProjectsCards(objects = []) {
             `;
   });
   return cardContent;
-};
+}
+
 function closePopUp() {
   modalContainer.style.display = 'none';
 }

@@ -255,4 +255,3 @@ document.querySelector('#contact_button').addEventListener('click', (e) => {
 //     element.value = informationStored[element.name];
 //   });
 // }
-

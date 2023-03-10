@@ -8,7 +8,7 @@ humburger.addEventListener('click', () => {
 
 document.querySelectorAll('.nav_link').forEach((n) => n.addEventListener('click', () => {
   humburger.classList.remove('active');
-  navBar.classList.remove('active');
+  navBar.classList.remove('active')
 }));
 
 const modalContainer = document.querySelector('#pop_up_window');
@@ -202,7 +202,7 @@ window.addEventListener('load', () => {
   });
 });
 
-const email = document.getElementById('email');
+const email = document.getElementById('email')
 
 document.querySelector('#contact_button').addEventListener('click', (e) => {
   const name = document.getElementById('name');

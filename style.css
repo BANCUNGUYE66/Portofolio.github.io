@@ -665,7 +665,7 @@ li .btn-btn-default {
   margin-left: -10.25rem;
 }
 
-.btn-btn-default:active {
+/* .btn-btn-default:active {
   background-color: #005cbf;
   color: #fff;
 }
@@ -679,6 +679,47 @@ li .btn-btn-default {
   background-color: #ccc;
   color: #666;
   cursor: not-allowed;
+} */
+
+.error_hidden {
+  display: none;
+}
+
+.submit_response {
+  background-color: white;
+  color: #6070ff;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#alertmessage {
+  background-color: white;
+  color: #e74c3c;
+  padding: 4px;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.contact_button {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  padding-bottom: 120px;
+  margin-left: 34px;
+}
+
+.contact_button button {
+  color: #396df2;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 12px 12px;
+  background-color: #fff;
+  border: 1px solid #396df2;
 }
 
 @media screen and (min-width: 768px) {
@@ -1021,5 +1062,14 @@ li .btn-btn-default {
     height: 1px;
     width: 650px;
     background: #dfe1e6;
+  }
+
+  .contact_button {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    padding-bottom: 120px;
+    margin-left: 474px;
   }
 }

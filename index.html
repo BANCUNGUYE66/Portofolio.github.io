@@ -170,7 +170,7 @@
             to help with it
           </p>
         </div>
-        <form
+        <form id="form"
           class="contact_form"
           action="https://formspree.io/f/xyyawbjz"
           method="post"
@@ -180,7 +180,8 @@
               <input
                 type="text"
                 name="name"
-                placeholder="Aimable"
+                id="name"
+                placeholder="Name"
                 maxlength="30"
                 required
               />
@@ -188,32 +189,35 @@
             <li class="li1-li_st">
               <input
                 type="email"
-                name="email"
-                placeholder="bancunguye@gmail.com"
+                name="Email"
+                id="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                placeholder="Email"
                 required
               />
             </li>
             <li class="li2-li_st">
               <textarea
                 name="comments"
-                placeholder="comment"
+                placeholder="Write a message"
                 maxlength="500"
+                id="textarea"
                 required
               ></textarea>
             </li>
-            <li class="li3-li_st">
-              <input
-                class="btn-btn-default"
-                type="submit"
-                name="submit"
-                value="Get in touch"
-              />
-            </li>
           </ul>
+          <div class="contact_button">
+            <small id="alertmessage"></small>
+            <button id="contact_button" type="submit">Get In Touch</button>
+          </div>
+          <div class="submit_response error_hidden">
+            Thank you for your Message
+          </div>
         </form>
       </section>
     </main>
     <script src="script.js"></script>
   </body>
 </html>
+
 

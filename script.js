@@ -142,7 +142,7 @@ function loadProjectsCards(objects = []) {
 
   objects.forEach((object) => {
     cardContent += `
-                <div class="workpage_container">
+                
                   <div class="card_one">
                      <div class="card_one_image">
                          <img src="${object.image}" alt="${object.alt}" />

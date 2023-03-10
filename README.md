@@ -1,9 +1,21 @@
-# Portfolio
+<a name="readme-top"></a>
 
-portfolio website
+# Portfolio #
 
-<a name=""></a>
+Getting Started
+Cloning the project
+Git clone git@github.com:BANCUNGUYE66/Portofolio.github.io.git
+To get a local copy up and running follow these simple example steps.
+Prerequisites
 
+Prerequisites A working browser application. VS code or anu other IDE NPM (Node Package Manager) Setup Install INSTALLING AND TESTING WEBHINT
+npm init -y
+
+npm install --save-dev hint@6.x For validation detection to use Webhint Run -npx hint . INSTALLING AND TESTING STYLEHINT
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x For validation detection to use Webhint Run
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -16,15 +28,31 @@ portfolio website
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Hello microverse project] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Portfolio<a name="Portfolio - mobile menu"></a>
+## Learning objectives
+
+- Used basic JavaScript syntax.
+- Used JavaScript to manipulate DOM elements.
+- Used JavaScript events.
+- Understood how to parse a Figma design to create a UI.
+- Used objects to store and access data.
+
+## Description
+
+For this milestone of my portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about my projects in a JavaScript object.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -40,8 +68,6 @@ portfolio website
 
 </details>
 
-
-
 ### Key Features <a name="key-features"></a>
 
 <details>
@@ -55,15 +81,21 @@ portfolio website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name ="live-demo"></a>
 
 - [Live Demo Link](https://www.loom.com/share/052baebce49047b79ecef67f5a160f28)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and runing follow these simple example steps. 1.Clone the Repo or Download the Zip file or git clone git@github.com:BANCUNGUYE66/Portofolio.github.io.git Open it with the live server 
+
 
 ### Prerequisites
 
@@ -167,16 +199,47 @@ every time.
 
 </details>
 
+
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
 [Deployment Link](https://bancunguye66.github.io/)
 
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 ### 👥 Author <a name="authors"></a>
 
 - GitHub: [@bancunguye66](https://github.com/bancunguye66)
 - Twitter: [@bancunguye66](https://twitter.com/bancunguye66)
 - LinkedIn: [Aimable BANCUNGUYE](https://linkedin.com/in/Aimable BANCUNGUYE)
+
+<!-- COLLABRATIONS-->
+
+## 👥 Collabrations <a name="collabrationns"></a>
+
+👤 **Yan Min Thwin**
+
+- GitHub: [@anbehindY](https://github.com/anbehindY)
+- Twitter: [@yanminthwin](https://twitter.com/yanminthwin)
+- LinkedIn: [Yan Min Thwin](https://www.linkedin.com/in/yan-min-thwin-192862215)
+
+👤 **JansueT**
+
+- GitHub: [@githubhandle](https://github.com/JansueT)
+- instagram: [@cansuetas](https://instagram.com/cansuetas)
+- twitter: [@cansu8tas](https://twitter.com/cansu8tas)
+- linkedIn: [@LinkedIn](https://www.linkedin.com/in/cansu-tas-467844251/)
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/JansueT/Hello-microverse-project/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,34 +251,27 @@ every time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/BANCUNGUYE66/BANCUNGUYE66.github.io/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-If you like this project please don't hesitate to give me your support, you are most welcome!
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse, hasnatali1947, yin-ka
+> Give credit to everyone who inspired your codebase.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+This project is [MIT](./LICENSE.md) licensed.
 

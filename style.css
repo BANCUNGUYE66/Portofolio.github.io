@@ -85,6 +85,141 @@
     left: 0;
   }
 
+  .pop-up {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 50px 50px;
+    z-index: 1;
+    overflow: auto;
+    position: fixed;
+    background-color: rgba(96, 112, 255, 0.874);
+    backdrop-filter: blur(5px);
+  }
+
+  .popup-card-1 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    border: 1px solid #dfe1e6;
+    padding: 20px;
+  }
+
+  .pop_cancel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pop_cancel .icon {
+    border: none;
+    color: #67798e;
+    font-size: 18px;
+    line-height: 5px;
+    font-weight: 800;
+    background-color: white;
+  }
+
+  .year ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+
+  .pop_card_one_image img {
+    width: 100%;
+  }
+
+  .pop_paragraph {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 12px;
+  }
+
+  .pop_skills_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .pop_skills_button ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 27px;
+  }
+
+  .first_button li {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    padding: 5px 12px;
+  }
+
+  .second_button li {
+    display: none;
+  }
+
+  .pop_skills_button a {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #60705b;
+    padding: 5px 12px;
+  }
+
+  .popup_button {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+  }
+
+  .popup_button button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #396df2;
+    padding: 14px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #396df2;
+  }
+
+  .source-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .live-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
   main {
     background-color: #e5e5e5;
   }
@@ -172,17 +307,13 @@
 
   .workpage {
     width: 100%;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
     padding-top: 108px;
     padding-bottom: 114px;
-  }
-
-  .workpage_container {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-gap: 80px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .card_one {
@@ -194,51 +325,8 @@
     border-radius: 17px;
   }
 
-  .card_two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    padding: 16px;
-    border-radius: 17px;
-  }
-
-  .card_three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    padding: 16px;
-    border-radius: 17px;
-  }
-
-  .card_four {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    padding: 16px;
-    border-radius: 17px;
-  }
-
   .card_one_image img {
-    width: 295px;
-    height: 220px;
-  }
-
-  .card_two_image img {
-    width: 295px;
-    height: 220px;
-  }
-
-  .card_three_image img {
-    width: 295px;
-    height: 220px;
-  }
-
-  .card_four_image img {
-    width: 295px;
-    height: 220px;
+    width: 100%;
   }
 
   .card_one h1 {
@@ -286,27 +374,22 @@
     padding-top: 12px;
   }
 
-  .skills_button {
+  .skills_button ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-  }
-
-  .skills_button ul {
-    display: flex;
-    flex-direction: row;
     gap: 12px;
     list-style: none;
     padding-top: 16px;
     padding-bottom: 27px;
   }
 
-  .skills_button a {
+  .skills_button li {
     text-decoration: none;
     background-color: #ebebff;
     border-radius: 8px;
-    color: #60705b;
+    color: #6070ff;
     padding: 5px 12px;
   }
 
@@ -394,7 +477,7 @@
 
   .skills_button_image a {
     color: #253858;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
@@ -612,6 +695,129 @@ li .btn-btn-default {
     display: none;
   }
 
+  .popup-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 77px 142px 77px 142px;
+    z-index: 10;
+  }
+
+  .popup-card-1 {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding-bottom: 100px;
+  }
+
+  .year ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+
+  .pop_card_one_image img {
+    width: 100%;
+  }
+
+  .pop_paragraph {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 12px;
+    margin-right: 127px;
+  }
+
+  .second_button li {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    padding: 5px 12px;
+  }
+
+  .live-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .pop_skills_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* .pop_skills_button ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 27px;
+  } */
+
+  .pop_skills_button a {
+    text-decoration: none;
+    background-color: #ebebff;
+    border-radius: 8px;
+    color: #60705b;
+    padding: 5px 12px;
+  }
+
+  /* .pop_skills_button {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .popup_button {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+  }
+
+  .popup_button button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #396df2;
+    padding: 14px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #396df2;
+  }
+
+  .pop_desktop_paragraph {
+    width: 100%;
+    display: flex;
+  }
+
+  .source-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* .live-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  } */
+
   .homepage {
     background-image: url(images/desktop_version/Header\ bg@2x.png);
     height: 76vh;
@@ -667,10 +873,12 @@ li .btn-btn-default {
   }
 
   .workpage {
+    width: 100%;
     padding-bottom: 10px;
   }
 
   .workpage_container {
+    width: 100%;
     grid-gap: 142px;
   }
 
@@ -682,47 +890,9 @@ li .btn-btn-default {
     margin-left: 62px;
   }
 
-  .card_two {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 496px;
-    width: 1156px;
-    margin-left: 62px;
-  }
-
   .card_one_text {
     grid-row: 1;
     grid-column: 2;
-    padding-left: 109px;
-  }
-
-  .card_two_text {
-    grid-row: 1;
-    grid-column: 2;
-    padding-left: 109px;
-  }
-
-  .card_three {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 496px;
-    width: 1156px;
-    margin-left: 62px;
-  }
-
-  .card_four {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 496px;
-    width: 1156px;
-    margin-left: 62px;
-  }
-
-  .card_three_text {
-    padding-left: 109px;
-  }
-
-  .card_four_text {
     padding-left: 109px;
   }
 
@@ -737,61 +907,7 @@ li .btn-btn-default {
     padding-top: 40px;
   }
 
-  .card_two_text h2 {
-    width: 496px;
-    height: 110px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    padding-top: 40px;
-  }
-
-  .card_three_text h2 {
-    width: 496px;
-    height: 110px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    padding-top: 40px;
-  }
-
-  .card_four_text h2 {
-    width: 496px;
-    height: 110px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    padding-top: 40px;
-  }
-
   .card_one_image img {
-    width: 589px;
-    height: 444px;
-    margin-left: 3px;
-    margin-top: 6px;
-  }
-
-  .card_two_image img {
-    width: 589px;
-    height: 444px;
-    margin-left: 3px;
-    margin-top: 6px;
-  }
-
-  .card_three_image img {
-    width: 589px;
-    height: 444px;
-    margin-left: 3px;
-    margin-top: 6px;
-  }
-
-  .card_four_image img {
     width: 589px;
     height: 444px;
     margin-left: 3px;
@@ -881,7 +997,7 @@ li .btn-btn-default {
 
   .li2-li_st textarea {
     border-radius: 0;
-    width: 447px;
+    width: 448px;
   }
 
   .li-li_st input {

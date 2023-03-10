@@ -94,7 +94,7 @@
     z-index: 1;
     overflow: auto;
     position: fixed;
-    background-color:rgba(96, 112, 255, 0.874);
+    background-color: rgba(96, 112, 255, 0.874);
     backdrop-filter: blur(5px);
   }
 
@@ -169,16 +169,15 @@
     padding-bottom: 27px;
   }
 
-  .first_button li{
+  .first_button li {
     text-decoration: none;
     background-color: #ebebff;
     border-radius: 8px;
     color: #6070ff;
     padding: 5px 12px;
-
   }
 
-  .second_button li{
+  .second_button li {
     display: none;
   }
 
@@ -313,10 +312,10 @@
     gap: 88px;
     padding-top: 108px;
     padding-bottom: 114px;
-    padding-left: 16px; 
-    padding-right: 16px; 
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  
+
 
   .card_one {
     display: flex;
@@ -740,13 +739,12 @@ li .btn-btn-default {
     margin-right: 127px;
   }
 
-  .second_button li{
+  .second_button li {
     text-decoration: none;
     background-color: #ebebff;
     border-radius: 8px;
     color: #6070ff;
     padding: 5px 12px;
-
   }
 
   .live-btn {
